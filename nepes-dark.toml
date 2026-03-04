@@ -13,9 +13,9 @@ magenta = "#9B6ABF"
 cyan = "#3A9BA5"
 yellow = "#E8C55A"
 gray = "#A5A8AF"
-muted = "#6E6E78"
-fg = "#D8D8DC"
-bg = "#1C1C1E"
+muted = "#787068"
+fg = "#DCD8D4"
+bg = "#1E1C1A"
 
 [character]
 success_symbol = "[](green)"
