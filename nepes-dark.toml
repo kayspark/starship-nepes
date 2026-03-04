@@ -1,0 +1,44 @@
+# Nepes Dark palette for Starship prompt
+# Usage: merge this into ~/.config/starship.toml and set `palette = "nepes-dark"`
+
+palette = "nepes-dark"
+
+[palettes.nepes-dark]
+blue = "#4A6ABF"
+brand_blue = "#23438E"
+red = "#D4252C"
+green = "#43AD49"
+orange = "#FEA413"
+magenta = "#9B6ABF"
+cyan = "#3A9BA5"
+yellow = "#E8C55A"
+gray = "#A5A8AF"
+muted = "#6E6E78"
+fg = "#D8D8DC"
+bg = "#1C1C1E"
+
+[character]
+success_symbol = "[](green)"
+error_symbol = "[󰩈](red)"
+
+[directory]
+style = "blue bold"
+
+[username]
+style_user = "orange bold"
+style_root = "red bold"
+format = "[$user]($style)@"
+
+[hostname]
+ssh_only = true
+ssh_symbol = " "
+format = "[$ssh_symbol$hostname]($style) in "
+style = "green bold"
+
+[shell]
+disabled = false
+format = " [$indicator]($style) "
+style = "blue bold"
+
+[git_state]
+disabled = false
