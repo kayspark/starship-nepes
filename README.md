@@ -2,6 +2,12 @@
 
 Nepes corporate color palette for [Starship](https://starship.rs/) prompt — dark and light variants.
 
+## Screenshots
+
+| Dark | Light |
+|------|-------|
+| ![Dark](docs/dark.png) | ![Light](docs/light.png) |
+
 ## Install
 
 Copy the palette and module configs into your `~/.config/starship.toml`:
