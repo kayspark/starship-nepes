@@ -4,10 +4,10 @@
 palette = "nepes-dark"
 
 [palettes.nepes-dark]
-blue = "#4A6ABF"
+blue = "#5C8CFF"
 brand_blue = "#23438E"
-red = "#D4252C"
-green = "#43AD49"
+red = "#FF5C5C"
+green = "#3DDC84"
 orange = "#FEA413"
 magenta = "#9B6ABF"
 cyan = "#3A9BA5"
